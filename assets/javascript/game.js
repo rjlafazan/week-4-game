@@ -7,7 +7,6 @@ function generateTargetNumber() {
 	targetNumber = Math.floor((Math.random() * 101) + 19);
 	console.log(targetNumber);
 }
-// I was frunk and duck when I wrote this code
 
 generateTargetNumber();
 
@@ -21,14 +20,14 @@ var loss = 0;
 
 // Creates an array with a length of 4 and assigns a random value from 1-12 to each item in the array
 var crystalValues
-function generateCrystalValues () {
+function generateCrystalValues ()uA() {
 	crystalValues = Array.from( {length: 5}, () => Math.floor((Math.random() * 11) + 1));
 	console.log(crystalValues);
 }
 generateCrystalValues();
 
 
-// array of  sexy drunken images
+// array of images
 var imageArray = [
 	'https://static.hykso.com/wp-content/uploads/2017/01/punchspeed512x.png',
 	'https://cdn2.iconfinder.com/data/icons/boxing/500/Boxing_15-256.png',
