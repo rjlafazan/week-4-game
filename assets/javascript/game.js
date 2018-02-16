@@ -20,7 +20,7 @@ var loss = 0;
 
 // Creates an array with a length of 4 and assigns a random value from 1-12 to each item in the array
 var crystalValues
-function generateCrystalValues ()uA() {
+function generateCrystalValues () {
 	crystalValues = Array.from( {length: 5}, () => Math.floor((Math.random() * 11) + 1));
 	console.log(crystalValues);
 }
